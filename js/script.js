@@ -1,14 +1,14 @@
 var intro = alert("Kimsiz?");
 
-var first_name = prompt("Ismingiz nima?", "Ibrohim");
+var first_name = prompt("Ismingiz nima?", "Ibrohim").trim();
 
-var last_name = prompt("Familiyangiz nima?", "Qudratov");
+var last_name = prompt("Familiyangiz nima?", "Qudratov").trim();
 
-var how_old = prompt("Yoshingiz nechida?", "15");
+var how_old = prompt("Yoshingiz nechida?", "15").trim();
 
-var profesion = prompt("Caspingiz nima?", "Progromist");
+var profesion = prompt("Caspingiz nima?", "Progromist").trim();
 
-var home = prompt("Qaerdansiz?", "Toshkent");
+var home = prompt("Qaerdansiz?", "Toshkent").trim();
 
 var confirm_info = confirm("Rahmat!")
 
